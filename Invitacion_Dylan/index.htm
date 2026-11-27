@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#e5f1fc">
+  <title>Primera Comunión de Dylan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="invitation">
+
+    <!-- PORTADA CON SOBRE CERRADO -->
+    <section class="envelope-screen" id="envelopeScreen">
+      <div class="envelope-area">
+        <div class="envelope" id="envelope">
+          <div class="letter-preview">
+            <span class="preview-cross">✝</span>
+            <span>Una invitación especial</span>
+            <strong>Dylan</strong>
+          </div>
+          <div class="envelope-back"></div>
+          <div class="envelope-pocket"></div>
+          <div class="envelope-flap"></div>
+          <div class="envelope-seal">✦</div>
+        </div>
+      </div>
+
+      <p class="open-message">Con cariño, te invito a compartir un día especial</p>
+      <button class="open-button" id="openButton">Abrir invitación</button>
+    </section>
+
+    <!-- TARJETA -->
+    <section class="content hidden" id="content">
+
+      <div class="corner corner-top-left">❧</div>
+      <div class="corner corner-top-right">❧</div>
+
+      <div class="top-decoration">✧　✦　✝　✦　✧</div>
+
+      <p class="eyebrow">Con mucha alegría te invito a celebrar</p>
+      <h1 class="main-title">Mi Primera<br>Comunión</h1>
+
+      <div class="gold-divider"><span>✧</span></div>
+
+      <!-- ILUSTRACIÓN DEL NIÑO -->
+      <div class="dylan-character">
+        <svg viewBox="0 0 260 270" role="img" aria-label="Niño de Primera Comunión con traje blanco y corbatín azul">
+          <ellipse cx="130" cy="250" rx="76" ry="10" fill="#dce8f2"/>
+
+          <!-- Cuerpo y traje -->
+          <path d="M75 151 Q79 128 105 124 L155 124 Q181 130 185 153 L200 238 Q130 252 60 238Z"
+                fill="#fff" stroke="#d8d5ca" stroke-width="2"/>
+          <path d="M105 126 L130 157 L155 126 L145 195 L115 195Z"
+                fill="#f1f4f5" stroke="#d8d5ca" stroke-width="1.5"/>
+          <path d="M130 157 L121 145 L130 137 L139 145Z" fill="#6e96c1"/>
+          <path d="M121 145 L130 157 L139 145 L135 171 L125 171Z" fill="#527ca9"/>
+
+          <!-- Brazos -->
+          <path d="M78 150 Q56 165 69 197 L91 210 L103 192 L91 176Z"
+                fill="#fff" stroke="#d8d5ca" stroke-width="2"/>
+          <path d="M182 150 Q204 165 191 197 L169 210 L157 192 L169 176Z"
+                fill="#fff" stroke="#d8d5ca" stroke-width="2"/>
+
+          <!-- Manos -->
+          <ellipse cx="94" cy="197" rx="12" ry="15" fill="#f1c9a9"/>
+          <ellipse cx="166" cy="197" rx="12" ry="15" fill="#f1c9a9"/>
+
+          <!-- Biblia -->
+          <rect x="93" y="183" width="74" height="48" rx="5"
+                fill="#b58d55" stroke="#8f7048" stroke-width="2"/>
+          <rect x="98" y="187" width="64" height="39" rx="3" fill="#fff9e9"/>
+          <path d="M130 188 V226" stroke="#d9c8a4" stroke-width="2"/>
+          <text x="130" y="207" text-anchor="middle" font-size="11" fill="#b18f53">✝</text>
+          <path d="M110 216 Q130 211 150 216" fill="none" stroke="#d9c8a4"/>
+
+          <!-- Cuello -->
+          <path d="M113 111 L113 132 Q130 145 147 132 L147 111Z" fill="#efbd9a"/>
+
+          <!-- Orejas y cara -->
+          <ellipse cx="87" cy="82" rx="11" ry="16" fill="#efbd9a"/>
+          <ellipse cx="173" cy="82" rx="11" ry="16" fill="#efbd9a"/>
+          <ellipse cx="130" cy="80" rx="43" ry="53" fill="#f4c9a8"/>
+
+          <!-- Cabello -->
+          <path d="M88 79 Q76 35 112 25 Q151 12 171 43 Q184 56 173 82
+                   Q166 65 157 59 Q143 68 125 57 Q110 72 91 67Z"
+                fill="#65432f"/>
+          <path d="M91 54 Q103 31 124 35 Q140 21 157 42"
+                fill="none" stroke="#80583d" stroke-width="7" stroke-linecap="round"/>
+
+          <!-- Ojos -->
+          <ellipse cx="114" cy="85" rx="3.8" ry="5" fill="#49382f"/>
+          <ellipse cx="146" cy="85" rx="3.8" ry="5" fill="#49382f"/>
+          <circle cx="115" cy="83" r="1.2" fill="white"/>
+          <circle cx="147" cy="83" r="1.2" fill="white"/>
+
+          <!-- Mejillas y sonrisa -->
+          <ellipse cx="101" cy="99" rx="8" ry="4" fill="#e9a99a" opacity=".6"/>
+          <ellipse cx="159" cy="99" rx="8" ry="4" fill="#e9a99a" opacity=".6"/>
+          <path d="M119 105 Q130 115 141 105" fill="none"
+                stroke="#a65e55" stroke-width="2.2" stroke-linecap="round"/>
+
+          <!-- Cruz pequeña -->
+          <path d="M130 13 V2 M125 7 H135" stroke="#c4a66b"
+                stroke-width="2.5" stroke-linecap="round"/>
+        </svg>
+      </div>
+
+      <h2 class="name">Dylan Arley Díaz Rojas</h2>
+
+      <p class="invitation-text">
+        Hoy Jesús llega a mi corazón para iluminar mi camino con su amor
+        y llenar mi vida de fe. Quiero compartir contigo la alegría de
+        este momento tan especial.
+      </p>
+
+      <!-- FECHA -->
+      <div class="date-card">
+        <span class="date-day">MARTES</span>
+        <span class="date-number">08</span>
+        <span class="date-month">DICIEMBRE</span>
+      </div>
+
+      <!-- INFORMACIÓN -->
+      <div class="details">
+        <article class="detail-item">
+          <span class="detail-icon">✝</span>
+          <h3>Santa Misa</h3>
+          <p class="detail-time">10:00 a. m.</p>
+          <p>Iglesia Inmaculada Concepción</p>
+        </article>
+
+        <article class="detail-item">
+          <span class="detail-icon">♡</span>
+          <h3>Compartir</h3>
+          <p class="detail-time">1:00 p. m.</p>
+          <p>Calle 2 #4-50</p>
+          <p>Fómeque, Cundinamarca</p>
+          <a class="map-link"
+             href="https://www.google.com/maps/search/?api=1&query=Calle+2+%234-50%2C+F%C3%B3meque%2C+Cundinamarca"
+             target="_blank" rel="noopener">
+            Ver ubicación
+          </a>
+        </article>
+      </div>
+
+      <p class="closing-text">
+        Tu presencia hará que este día sea aún más especial.
+      </p>
+
+      <div class="gold-divider"><span>♡</span></div>
+
+      <!-- CONFIRMACIÓN -->
+      <div class="rsvp">
+        <h3>¿Me acompañas?</h3>
+        <p>Me encantaría compartir este momento contigo.</p>
+
+        <label for="guestCount">¿Cuántas personas asistirán?</label>
+        <select id="guestCount">
+          <option value="1 persona">1 persona</option>
+          <option value="2 personas">2 personas</option>
+          <option value="3 personas">3 personas</option>
+          <option value="4 personas">4 personas</option>
+          <option value="5 personas">5 personas</option>
+          <option value="Más de 5 personas">Más de 5 personas</option>
+        </select>
+
+        <button class="yes-button" id="yesButton">¡Sí, asistiré!</button>
+        <button class="no-button" id="noButton">No podré asistir</button>
+      </div>
+
+      <p class="final-sign">Con cariño, Dylan</p>
+      <div class="bottom-decoration">✧　✦　♡　✦　✧</div>
+
+      <div class="corner corner-bottom-left">❧</div>
+      <div class="corner corner-bottom-right">❧</div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
